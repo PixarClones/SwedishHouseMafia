@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+body {
+  font-family: Verdana;
+  margin: 0 0 0 0;
+}
+
+.title{
+text-align: center;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 80px;
+color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 15px 50px;
+  text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background: #FFFFFF;
+  color: black;
+  border-radius: 5px;
+}
+
+.navbar a.active {
+  color: white;
+  border-radius: 10px;
+}
+a {
+  color: white;
+      font-family: 'Ubuntu', sans-serif;
+font-size: 20px;
+}
+@media screen and (max-width: 450px) {
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5px;
+}
+
+.navbar a:hover {
+  background: #FFFFFF;
+  color: black;
+  border-radius: 55px;
+}
+
+.navbar a.active {
+  background-color: #8FACE3;
+  color: white;
+}
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #8FACE3; /* Add a dark-grey background on hover */
+}
