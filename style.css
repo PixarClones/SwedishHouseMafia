@@ -64,10 +64,10 @@ font-size: 20px;
   display: block;
   color: #FFFFFF;
   text-align: center;
-  padding: 15px 35px;
+  padding: 15px 15px;
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 5px;
+  font-size: 15px;
 }
 
 .navbar a:hover {
