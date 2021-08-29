@@ -40,12 +40,18 @@ color: white;
 }
 
 .navbar a.active {
+  background-color: #000000;
   color: white;
   border-radius: 10px;
 }
+.navbar a.active:hover {
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 5px;
+}
 a {
   color: white;
-      font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 font-size: 20px;
 }
 @media screen and (max-width: 450px) {
@@ -77,8 +83,14 @@ font-size: 20px;
 }
 
 .navbar a.active {
-  background-color: #8FACE3;
+  background-color: black;
   color: white;
+  border-radius: 10px;
+}
+.navbar a.active:hover {
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 55px;
 }
 }
 
